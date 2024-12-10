@@ -15,8 +15,8 @@ import pairmatching.util.NUMBER_CONSTANT;
 public class FileInputView {
     static String filePath = "";
 
-    public FileInputView(int courseIndex) {
-        if (courseIndex == 0) {
+    public FileInputView(String courseName) {
+        if (courseName.equals("백엔드")) {
             filePath = FILE_CONSTANT.BACKEND_FILE_PATH.toString();
         } else {
             filePath = FILE_CONSTANT.FRONTEND_FILE_PATH.toString();
