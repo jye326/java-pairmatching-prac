@@ -2,8 +2,8 @@ package pairmatching.util;
 
 
 public enum FILE_CONSTANT {
-    productFilePath("src/main/resources/products.md"),
-    promotionFilePath("src/main/resources/promotions.md"),
+    BACKEND_FILE_PATH("src/main/resources/backend-crew.md"),
+    FRONTEND_FILE_PATH("src/main/resources/frontend-crew.md"),
     fileDelimiter("\n"),
     dateFormat_yyyyMMdd("yyyy-MM-dd");
 
